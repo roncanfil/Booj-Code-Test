@@ -16,7 +16,7 @@ Since I'm going to be working with arrays, I'll store the indexes in an array to
 */
 
 function getEquilibriums($arr) {
-	$output = array();                        // array to store the equilibrium indexes
+  $output = array();                        // array to store the equilibrium indexes
 
   $right = array_sum($arr);                 // sum of the array
   $left = 0;                                // assuming 0
@@ -28,6 +28,6 @@ function getEquilibriums($arr) {
       $left += $value;                      //the new value of $left
   }
 
-	return $output;                          //return the array with the equilibrium indexes
+  return $output;                          //return the array with the equilibrium indexes
 }
  

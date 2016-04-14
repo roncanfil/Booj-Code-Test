@@ -15,6 +15,8 @@ is an index. I keep doing this considering the new "$left" as the the sum of its
 the new element and the new "$right" as the subtraction of the new element to its current value. 
 Since I'm going to be working with arrays, I'll store the indexes in an array to display the results.
 
+Demo: http://labs.ronaldhenriquez.com/booj/
+
 */
  
 function getEquilibriumIndexes($arr) {
